@@ -27,7 +27,7 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/CodeWhiteWeb/ShowCase.git
-````
+```
 
 2. Open `index.html` in a browser.
 
