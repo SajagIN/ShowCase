@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Primary Meta Tags -->
+  <title>My Projects – CodeWhiteWeb</title>
+  <meta name="title" content="My Projects – CodeWhiteWeb">
+  <meta name="description" content="A visually-rich showcase of open-source projects.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://www.svgrepo.com/show/507319/github-circle.svg" type="image/svg+xml">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://codewhiteweb.thedev.id">
+  <meta property="og:title" content="My Projects – CodeWhiteWeb">
+  <meta property="og:description" content="A visually-rich GitHub project showcase.">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://codewhiteweb.thedev.id">
+  <meta property="twitter:title" content="My Projects – CodeWhiteWeb">
+  <meta property="twitter:description" content="Explore all my projects repositories.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black text-white min-h-screen px-4 py-8">
+  <h1 class="text-4xl font-bold text-center mb-8 text-white">
+    🚀 My Projects
+  </h1>
+
+  <div id="projects" class="columns-1 sm:columns-2 lg:columns-3 gap-6 max-w-6xl mx-auto space-y-6"></div>
+  <p id="loading" class="text-center text-gray-400 mt-6 hidden">Loading more projects...</p>
+  <p id="end" class="text-center text-gray-600 mt-6 hidden">No more projects found.</p>
+  <!-- Top-left blob -->
+  <img src="https://www.svgrepo.com/show/521330/vscode-16.svg"
+    class="fixed invert mix-blend-screen top-[-50px] left-[-50px] w-[300px] opacity-10 blur-sm animate-float pointer-events-none select-none z-[-1]"
+    loading="lazy" />
+
+  <!-- Bottom-right blob -->
+  <img src="https://www.svgrepo.com/show/504388/github.svg"
+    class="fixed invert mix-blend-screen bottom-[-50px] right-[-50px] w-[300px] opacity-10 blur-sm animate-float-reverse pointer-events-none select-none z-[-1]"
+    loading="lazy" />
+
+  <script src="script.js"></script>
+</body>
+</html>
