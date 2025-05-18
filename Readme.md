@@ -59,6 +59,4 @@ The project uses the **public GitHub API**, which allows:
 
 > Designed with ❤️ to showcase what you build.
 
-```
-
 ---
