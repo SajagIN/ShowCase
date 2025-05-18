@@ -2,7 +2,8 @@ let emojiMap = {};
 let page = 1;
 let isLoading = false;
 let allLoaded = false;
-
+const username = "CodeWhiteWeb";
+const topic = "my-projects";
 const CACHE_KEY = "githubEmojiCache";
 const CACHE_EXPIRY_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
 
@@ -51,7 +52,7 @@ async function fetchProjects() {
   document.getElementById("loading").classList.remove("hidden");
 
   const res = await fetch(
-    `https://api.github.com/search/repositories?q=user:CodeWhiteWeb+topic:my-projects&per_page=30&page=${page}`
+    `https://api.github.com/search/repositories?q=user:${username}+topic:${topic}&per_page=30&page=${page}`
   );
   const data = await res.json();
 
