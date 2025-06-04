@@ -26,7 +26,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CodeWhiteWeb/ShowCase.git
+   git clone https://github.com/SajagIN/ShowCase.git
    ```
 
 2. Open `index.html` in a browser.
@@ -34,7 +34,7 @@
 3. Make sure your GitHub username is set correctly in the JavaScript:
 
    ```js
-   const username = "your-github-username"; // e.g., "CodeWhiteWeb"
+   const username = "your-github-username"; // e.g., "SajagIN"
    ```
 4. Change the 'topic' variable in the JavaScript to filter repositories by topic:
 
